@@ -5,11 +5,6 @@ import tempfile
 import cv2 as cv
 from tqdm import tqdm
 
-# TODO:
-# - load images
-# - resize
-# - concat
-# - save
 
 # Parameters
 ORIGINAL_IMAGES_DIR = "data/png"
@@ -22,7 +17,6 @@ ROTATION =  cv.ROTATE_90_COUNTERCLOCKWISE
 
 #------------------------------------------------------------------------
 # I/O
-
 
 def load_image(image_path: str):
     try:
